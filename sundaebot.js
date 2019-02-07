@@ -1,4 +1,4 @@
-const scriptName="sundaebot.js.js";
+const scriptName="sundaebot.js";
 
 var roomMap ={
     "algoRoom" : {
@@ -117,11 +117,6 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName,
         // 방 체크
         if( msg.indexOf("/roomcheck")==0){
             replier.reply(room +" is "+roomCheck(room, "koreanlab"));
-        }else if(roomCheck(room, "koreanlab")){
-            helpMessage += "\n/사전_언어_키워드 \n(입력 가능 언어: en, vt, id, th, cn, jp, pt, fr, sp, gm, mg)\nㄷㅇ; 무작위 단어(random word)\nㄷㅇㄱ; 단어 거꾸로(reverse)\nㄷㅇ_number; 단어 갯수\n(일반 사용자 단어 제한: 5개)\n/time\n/tran_ko 안녕\n/tran_en_hello\n/tran_cn_过得怎么样？\n/tran_jp_こんにちは";
-            if(authCheck(sender, 1)){
-                 helpMessage += "\n### 매니저 이상 ###\n단어 반복 제한 없음\n단어 추가:ㄷㅇ_ㅊㄱ_언어//한국어//외국어\n단어 수정:ㄷㅇ ㅅㅈ 언어//FROM//TO\n(언어:en, pt, vt, id, th, cn, jp)";
-            }
         }else if(roomCheck(room, "algorithm")){
             helpMessage = "\n/r 서비스 분류:랜덤 문제\n/백준 번호\n/code 소스코드";
             if(room == "국립 순천대 알고리즘 스터디 방(타대생, 취준생 환영)"){
@@ -197,9 +192,6 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName,
    }
 
   // 순천대학교
-  if(room == '🐯 정보처리기사 정보공유 / 공부방' ||
-         room == '자바/코틀린 알고리즘 자습방' ||
-         room == '순천대 알고리즘 스터디 방(타대생, 취준생 환영!)'){
       if(msg.indexOf('/백준 ') == 0){
          var arg = msg.substring(4, msg.length);
 
@@ -282,7 +274,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName,
          replier.reply(newCode);
          roomMap[roomType(room)].check = false;
       }
-   }
+  
     roomMap[roomType(room)].check = false;
     /*(이 내용은 길잡이일 뿐이니 지우셔도 무방합니다)
      *(String) room: 메시지를 받은 방 이름
