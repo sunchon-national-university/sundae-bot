@@ -11,6 +11,9 @@ Optionally, if you don't have your own extra phone. You can use [textPlus](https
 
 <image src="/3.png"/>
 
+   안녕하세요? 순천대 알고리즘 자습방에 오신 걸 환영합니다. 비순대생분들도 계시며, 저희는 주로 백준 사이트(http://boj.kr)에서 문제를 풀고 있습니다. 백준에서 학교나 회사 인증을 하셔서 등록하시고 백준 내에 저희 그룹(http://www.acmicpc.net/group/1243)에서 같이 문제를 풀기도 하니 관심있으시면 그룹 신청을 해주세요. 마지막으로, 교내외 알고리즘 활동(동아리 활동, 오프 스터디 팀원 구하기, 대회 등) 관련 홍보는 자유롭게 하셔도 좋습니다.
+
+
 # License #
 
 MIT License
