@@ -1,6 +1,11 @@
 # sundae-bot
 This is a bot for kakakotalk.
 
+### Preparation ###
+
+To make Kakao bot, you need [MessangerBot](https://play.google.com/store/apps/details?id=com.xfl.kakaotalkbot), [Wear OS](https://play.google.com/store/apps/details?id=com.google.android.wearable.app). Add your source file into the MessangerBot app and turn Wear OS and run the file. For more information check [here](https://cafe.naver.com/msgbot).
+
+Optionally, if you don't have your own extra phone. You can use [textPlus](https://play.google.com/store/apps/details?id=com.gogii.textplus) for phone number, [Dr. Clone](https://play.google.com/store/apps/details?id=com.trendmicro.tmas) for creating another app or similar apps.
 
 # License #
 
