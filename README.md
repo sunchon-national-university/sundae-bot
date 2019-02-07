@@ -7,6 +7,10 @@ To make Kakao bot, you need [MessangerBot](https://play.google.com/store/apps/de
 
 Optionally, if you don't have your own extra phone. You can use [textPlus](https://play.google.com/store/apps/details?id=com.gogii.textplus) for phone number, [Dr. Clone](https://play.google.com/store/apps/details?id=com.trendmicro.tmas) for creating another app or similar apps.
 
+### Example ###
+
+<image src="/3.png"/>
+
 # License #
 
 MIT License
